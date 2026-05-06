@@ -1,1 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <title>Contractor Equipment Insurance | Heavy Equipment & Inland Marine Coverage</title>
+
+  <meta name="description" content="Get contractor equipment insurance quotes for excavators, skid steers, bulldozers, contractor tools, inland marine coverage, rented equipment, and heavy machinery." />
+
+  <meta name="keywords" content="contractor equipment insurance, heavy equipment insurance, inland marine insurance, skid steer insurance, excavator insurance, bulldozer insurance, contractor tools insurance" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "InsuranceAgency",
+    "name": "Contractor Equipment Insurance",
+    "url": "https://contractorequipmentinsurance.com",
+    "description": "Insurance quotes for contractor equipment, inland marine, heavy machinery, and construction equipment."
+  }
+  </script>
+</head>
+
+<body>
+
+<header class="hero">
+  <div class="overlay"></div>
+
+  <div class="hero-content">
+    <h1>Contractor Equipment Insurance</h1>
+
+    <p class="subheadline">
+      Protect excavators, skid steers, bulldozers, contractor tools, trailers, and heavy equipment with customized inland marine and contractor equipment insurance coverage.
+    </p>
+
+    <a href="#quote-form" class="cta-button">Get Your Free Quote</a>
+  </div>
+</header>
+
+<section class="section">
+  <h2>Equipment We Help Insure</h2>
+
+  <div class="card-grid">
+
+    <div class="card">
+      <h3>Excavators</h3>
+      <p>Coverage for owned, financed, leased, and rented excavators.</p>
+    </div>
+
+    <div class="card">
+      <h3>Skid Steers</h3>
+      <p>Protect skid steers against theft, rollover, and jobsite damage.</p>
+    </div>
+
+    <div class="card">
+      <h3>Bulldozers</h3>
+      <p>Heavy equipment insurance solutions built for contractors.</p>
+    </div>
+
+    <div class="card">
+      <h3>Contractor Tools</h3>
+      <p>Coverage for tools, generators, compressors, and portable equipment.</p>
+    </div>
+
+    <div class="card">
+      <h3>Trailers</h3>
+      <p>Insure equipment trailers and transported machinery.</p>
+    </div>
+
+    <div class="card">
+      <h3>Rented Equipment</h3>
+      <p>Coverage options for rented and leased contractor equipment.</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="section alt-section">
+  <h2>Why Contractors Need Equipment Insurance</h2>
+
+  <p>
+    Contractor equipment is exposed to theft, vandalism, rollover accidents, transport damage, fires, and jobsite losses every day. Standard commercial auto or general liability policies often do not fully protect contractor equipment and mobile machinery.
+  </p>
+
+  <p>
+    Inland marine insurance and contractor equipment coverage can help protect excavators, skid steers, bulldozers, loaders, trailers, and tools whether they are on the jobsite, being transported, or temporarily stored.
+  </p>
+</section>
+
+<section class="section">
+  <h2>Industries We Help</h2>
+
+  <div class="industries-list">
+    <span>Excavation Contractors</span>
+    <span>Utility Contractors</span>
+    <span>Concrete Contractors</span>
+    <span>Landscaping Companies</span>
+    <span>Site Prep Crews</span>
+    <span>Dirt Movers</span>
+    <span>Logging Contractors</span>
+    <span>Grading Contractors</span>
+  </div>
+</section>
+
+<section class="section alt-section" id="quote-form">
+
+  <h2>Request Your Free Contractor Equipment Insurance Quote</h2>
+
+  <form action="https://formspree.io/f/mvzlqrle" method="POST">
+
+    <input type="text" name="name" placeholder="Full Name" required />
+
+    <input type="text" name="company" placeholder="Company Name" />
+
+    <input type="tel" id="phone" name="phone" placeholder="Phone Number" required />
+
+    <input type="email" name="email" placeholder="Email Address" required />
+
+    <input type="text" name="equipment" placeholder="Equipment Type" />
+
+    <input type="text" name="state" placeholder="State" />
+
+    <button type="submit">Request My Free Quote</button>
+
+    <input type="hidden" name="_next" value="https://contractorequipmentinsurance.com/thank-you.html">
+
+  </form>
+
+  <p class="tcpa">
+    By clicking “Request My Free Quote,” you consent to be contacted by The Partners Group and its representatives by phone call, text message, and email regarding insurance products and services, including through the use of automatic telephone dialing systems and prerecorded messages, even if your phone number is on a federal or state Do Not Call list. Consent is not required as a condition of purchase.
+  </p>
+
+</section>
+
+<section class="section faq-section">
+
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <h3>Does contractor equipment insurance cover theft?</h3>
+    <p>Many contractor equipment policies provide protection against theft and vandalism depending on the policy structure and coverage selected.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>What is inland marine insurance?</h3>
+    <p>Inland marine insurance helps protect contractor tools and equipment while being transported, stored, or used away from a fixed location.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Can rented equipment be insured?</h3>
+    <p>Yes. Many contractors add coverage for rented or leased equipment to help protect against expensive losses.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Does equipment insurance cover transport damage?</h3>
+    <p>Coverage may apply while equipment is being transported depending on policy terms and conditions.</p>
+  </div>
+
+</section>
+
+<footer>
+  <p>© 2026 ContractorEquipmentInsurance.com | Commercial Contractor Equipment Insurance</p>
+</footer>
+
+<script>
+const phoneInput = document.getElementById('phone');
+
+phoneInput.addEventListener('input', (e) => {
+  let input = e.target.value.replace(/\D/g, '').substring(0, 10);
+
+  let areaCode = input.substring(0, 3);
+  let middle = input.substring(3, 6);
+  let last = input.substring(6, 10);
+
+  if (input.length > 6) {
+    e.target.value = `(${areaCode}) ${middle}-${last}`;
+  } else if (input.length > 3) {
+    e.target.value = `(${areaCode}) ${middle}`;
+  } else if (input.length > 0) {
+    e.target.value = `(${areaCode}`;
+  }
+});
+</script>
+
+</body>
+</html>
