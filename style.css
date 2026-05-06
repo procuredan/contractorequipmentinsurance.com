@@ -1,1 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background-color: #f4f4f4;
+}
+
+.hero {
+  position: relative;
+  background:
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1600&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero-content {
+  max-width: 900px;
+  color: white;
+  z-index: 2;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  line-height: 1.1;
+}
+
+.subheadline {
+  font-size: 1.35rem;
+  margin-bottom: 35px;
+  color: rgba(255,255,255,0.95);
+}
+
+.cta-button {
+  display: inline-block;
+  background: #d89b2b;
+  color: white;
+  text-decoration: none;
+  padding: 16px 34px;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #b9811f;
+}
+
+.section {
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 45px;
+  color: #1f2937;
+}
+
+.alt-section {
+  background: white;
+  max-width: 100%;
+}
+
+.alt-section p {
+  max-width: 950px;
+  margin: auto;
+  margin-bottom: 25px;
+  font-size: 1.1rem;
+  color: #444;
+  padding: 0 20px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card h3 {
+  margin-bottom: 15px;
+  color: #d89b2b;
+  font-size: 1.4rem;
+}
+
+.industries-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.industries-list span {
+  background: white;
+  padding: 14px 22px;
+  border-radius: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  font-weight: bold;
+}
+
+form {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+form input {
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+form button {
+  width: 100%;
+  padding: 18px;
+  border: none;
+  background: #d89b2b;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+form button:hover {
+  background: #b9811f;
+}
+
+.tcpa {
+  max-width: 700px;
+  margin: 20px auto 0 auto;
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.faq-section {
+  max-width: 1000px;
+}
+
+.faq-item {
+  background: white;
+  padding: 28px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.faq-item h3 {
+  margin-bottom: 12px;
+  color: #1f2937;
+}
+
+footer {
+  background: #111827;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 50px;
+}
+
+footer p {
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+
+  .hero {
+    min-height: 550px;
+  }
+
+  .hero h1 {
+    font-size: 2.6rem;
+  }
+
+  .subheadline {
+    font-size: 1.05rem;
+  }
+
+  .section {
+    padding: 60px 20px;
+  }
+
+  .section h2 {
+    font-size: 2rem;
+  }
+
+  form {
+    padding: 25px;
+  }
+
+}
