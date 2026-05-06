@@ -10,6 +10,29 @@ body {
   color: #222;
   background-color: #f4f4f4;
 }
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: white;
+  padding: 16px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #1f2937;
+}
+
+.topbar nav a {
+  text-decoration: none;
+  color: #d89b2b;
+  font-weight: bold;
+}
 
 .hero {
   position: relative;
