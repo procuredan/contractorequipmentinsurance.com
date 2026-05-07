@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Skid Steer Insurance | Contractor Equipment Insurance</title>
+
+  <meta name="description" content="Get skid steer insurance quotes for theft, rollover, transport damage, vandalism, and contractor equipment protection." />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BPXMEYPFT1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-BPXMEYPFT1');
+  </script>
+
+</head>
+
+<body>
+
+<header class="topbar">
+  <div class="logo">
+    ContractorEquipmentInsurance.com
+  </div>
+
+  <nav>
+    <a href="index.html">Home</a>
+  </nav>
+</header>
+
+<section class="hero" style="min-height: 500px;">
+
+  <div class="hero-content">
+    <h1>Skid Steer Insurance</h1>
+
+    <p class="subheadline">
+      Protect skid steers and compact track loaders against theft, rollover, vandalism, transport damage, and jobsite losses.
+    </p>
+
+    <a href="index.html#quote-form" class="cta-button">
+      Get A Free Quote
+    </a>
+  </div>
+
+</section>
+
+<section class="section">
+
+  <h2>Why Skid Steer Insurance Matters</h2>
+
+  <p>
+    Skid steers are one of the most commonly stolen and frequently damaged pieces of contractor equipment. Whether used for excavation, grading, landscaping, snow removal, utility work, or site preparation, skid steers are exposed to major risks every day.
+  </p>
+
+  <p>
+    Contractor equipment insurance and inland marine coverage can help protect skid steers from theft, collision damage, rollover incidents, vandalism, fires, transport damage, and certain weather-related losses.
+  </p>
+
+  <p>
+    Many contractors also need coverage while transporting skid steers between jobsites or while temporarily storing equipment overnight.
+  </p>
+
+</section>
+
+<section class="section alt-section">
+
+  <h2>Common Skid Steer Insurance Coverages</h2>
+
+  <div class="card-grid">
+
+    <div class="card">
+      <h3>Theft Protection</h3>
+      <p>Coverage options for stolen skid steers and compact track loaders.</p>
+    </div>
+
+    <div class="card">
+      <h3>Transport Damage</h3>
+      <p>Protection while hauling equipment between jobsites.</p>
+    </div>
+
+    <div class="card">
+      <h3>Rollover Coverage</h3>
+      <p>Coverage for rollover accidents and jobsite incidents.</p>
+    </div>
+
+    <div class="card">
+      <h3>Vandalism & Fire</h3>
+      <p>Protection against fires, vandalism, and certain accidental losses.</p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <h2>Who Needs Skid Steer Insurance?</h2>
+
+  <div class="industries-list">
+    <span>Excavation Contractors</span>
+    <span>Landscaping Companies</span>
+    <span>Concrete Contractors</span>
+    <span>Snow Removal Companies</span>
+    <span>Utility Contractors</span>
+    <span>Site Prep Contractors</span>
+  </div>
+
+</section>
+
+<section class="section alt-section">
+
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <h3>Does skid steer insurance cover theft?</h3>
+    <p>Many contractor equipment insurance policies can provide protection against theft depending on policy structure and selected coverages.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Is skid steer insurance required?</h3>
+    <p>Many lenders, leasing companies, and jobsite contracts require contractors to carry equipment coverage.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Can skid steers be insured while transported?</h3>
+    <p>Coverage may apply during transport depending on the policy and coverage options selected.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>What is inland marine insurance?</h3>
+    <p>Inland marine insurance helps protect contractor equipment and tools while away from a fixed business location.</p>
+  </div>
+
+</section>
+
+<section class="section" id="quote-form">
+
+  <h2>Request A Free Skid Steer Insurance Quote</h2>
+
+  <form action="https://formspree.io/f/mvzlqrle" method="POST">
+
+    <input type="text" name="name" placeholder="Full Name" required />
+
+    <input type="text" name="company" placeholder="Company Name" />
+
+    <input type="tel" id="phone" name="phone" placeholder="Phone Number" required />
+
+    <input type="email" name="email" placeholder="Email Address" required />
+
+    <button type="submit">Request My Quote</button>
+
+    <input type="hidden" name="_next" value="https://contractorequipmentinsurance.com/thank-you.html">
+
+  </form>
+
+</section>
+
+<footer>
+  <p>© 2026 ContractorEquipmentInsurance.com</p>
+</footer>
+
+<script>
+const phoneInput = document.getElementById('phone');
+
+phoneInput.addEventListener('input', (e) => {
+  let input = e.target.value.replace(/\D/g, '').substring(0, 10);
+
+  let areaCode = input.substring(0, 3);
+  let middle = input.substring(3, 6);
+  let last = input.substring(6, 10);
+
+  if (input.length > 6) {
+    e.target.value = `(${areaCode}) ${middle}-${last}`;
+  } else if (input.length > 3) {
+    e.target.value = `(${areaCode}) ${middle}`;
+  } else if (input.length > 0) {
+    e.target.value = `(${areaCode}`;
+  }
+});
+</script>
+
+</body>
+</html>
