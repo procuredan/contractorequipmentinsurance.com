@@ -133,6 +133,14 @@ body {
   color: #d89b2b;
   font-size: 1.4rem;
 }
+.card h3 a {
+  color: #d89b2b;
+  text-decoration: none;
+}
+
+.card h3 a:hover {
+  text-decoration: underline;
+}
 
 .industries-list {
   display: flex;
