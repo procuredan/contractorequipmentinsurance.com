@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Excavator Insurance | Contractor Equipment Insurance</title>
+
+  <meta name="description" content="Get excavator insurance quotes for theft, rollover, transport damage, inland marine coverage, and heavy equipment protection." />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BPXMEYPFT1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-BPXMEYPFT1');
+  </script>
+
+</head>
+
+<body>
+
+<header class="topbar">
+  <div class="logo">
+    ContractorEquipmentInsurance.com
+  </div>
+
+  <nav>
+    <a href="index.html">Home</a>
+  </nav>
+</header>
+
+<section class="hero" style="min-height: 500px;">
+
+  <div class="hero-content">
+    <h1>Excavator Insurance</h1>
+
+    <p class="subheadline">
+      Protect excavators and heavy construction equipment against theft, rollover losses, vandalism, transport damage, and jobsite risks.
+    </p>
+
+    <a href="index.html#quote-form" class="cta-button">
+      Get A Free Quote
+    </a>
+  </div>
+
+</section>
+
+<section class="section">
+
+  <h2>Excavator Insurance Coverage</h2>
+
+  <p>
+    Excavators are some of the most expensive and important pieces of contractor equipment used by excavation companies, utility contractors, site preparation crews, and grading contractors.
+  </p>
+
+  <p>
+    Contractor equipment insurance and inland marine coverage can help protect excavators from theft, accidental damage, rollover incidents, vandalism, fire losses, and transportation-related claims.
+  </p>
+
+  <p>
+    Because excavators are often transported between jobsites and temporarily stored in unsecured locations, contractors face significant financial exposure if equipment is damaged or stolen.
+  </p>
+
+</section>
+
+<section class="section alt-section">
+
+  <h2>Common Excavator Insurance Coverages</h2>
+
+  <div class="card-grid">
+
+    <div class="card">
+      <h3>Theft Protection</h3>
+      <p>Coverage options for stolen excavators and heavy equipment.</p>
+    </div>
+
+    <div class="card">
+      <h3>Transport Coverage</h3>
+      <p>Protection while hauling excavators between jobsites.</p>
+    </div>
+
+    <div class="card">
+      <h3>Rollover & Collision</h3>
+      <p>Coverage for accidental damage and equipment incidents.</p>
+    </div>
+
+    <div class="card">
+      <h3>Fire & Vandalism</h3>
+      <p>Protection against certain fire losses and vandalism claims.</p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <h2>Who Needs Excavator Insurance?</h2>
+
+  <div class="industries-list">
+    <span>Excavation Contractors</span>
+    <span>Utility Contractors</span>
+    <span>Site Prep Contractors</span>
+    <span>Concrete Contractors</span>
+    <span>Land Clearing Companies</span>
+    <span>Grading Contractors</span>
+  </div>
+
+</section>
+
+<section class="section alt-section">
+
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <h3>Does excavator insurance cover theft?</h3>
+    <p>Many contractor equipment insurance policies can help protect excavators against theft depending on selected coverage options.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Can excavators be insured while transported?</h3>
+    <p>Coverage may apply while transporting excavators between jobsites depending on policy structure and terms.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>What type of insurance covers excavators?</h3>
+    <p>Many contractors use inland marine insurance and contractor equipment coverage to protect excavators and heavy machinery.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Is excavator insurance required?</h3>
+    <p>Lenders, leasing companies, and certain project contracts often require equipment insurance coverage.</p>
+  </div>
+
+</section>
+
+<section class="section" id="quote-form">
+
+  <h2>Request A Free Excavator Insurance Quote</h2>
+
+  <form action="https://formspree.io/f/mvzlqrle" method="POST">
+
+    <input type="text" name="name" placeholder="Full Name" required />
+
+    <input type="text" name="company" placeholder="Company Name" />
+
+    <input type="tel" id="phone" name="phone" placeholder="Phone Number" required />
+
+    <input type="email" name="email" placeholder="Email Address" required />
+
+    <button type="submit">Request My Quote</button>
+
+    <input type="hidden" name="_next" value="https://contractorequipmentinsurance.com/thank-you.html">
+
+  </form>
+
+</section>
+
+<footer>
+  <p>© 2026 ContractorEquipmentInsurance.com</p>
+</footer>
+
+<script>
+const phoneInput = document.getElementById('phone');
+
+phoneInput.addEventListener('input', (e) => {
+  let input = e.target.value.replace(/\D/g, '').substring(0, 10);
+
+  let areaCode = input.substring(0, 3);
+  let middle = input.substring(3, 6);
+  let last = input.substring(6, 10);
+
+  if (input.length > 6) {
+    e.target.value = `(${areaCode}) ${middle}-${last}`;
+  } else if (input.length > 3) {
+    e.target.value = `(${areaCode}) ${middle}`;
+  } else if (input.length > 0) {
+    e.target.value = `(${areaCode}`;
+  }
+});
+</script>
+
+</body>
+</html>
