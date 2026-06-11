@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Contractor Equipment Insurance | Free Coverage Review</title>
-<meta name="description" content="Free contractor equipment insurance review. Inland marine coverage for excavators, skid steers, dozers, loaders, trailers, and tools — owned, financed, leased, or rented. Compare specialty markets before renewal." />
+<title>Skid Steer Insurance | Contractor Equipment Insurance</title>
+<meta name="description" content="Free skid steer insurance review. Coverage for skid steers and compact track loaders against theft, rollover, transport damage, vandalism, and jobsite losses." />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Contractor Equipment Insurance" />
-<meta property="og:title" content="Contractor Equipment Insurance | Free Coverage Review" />
-<meta property="og:description" content="Free contractor equipment insurance review. Inland marine coverage for excavators, skid steers, dozers, loaders, trailers, and tools — owned, financed, leased, or rented. Compare specialty markets before renewal." />
-<meta property="og:url" content="https://contractorequipmentinsurance.com/" />
+<meta property="og:title" content="Skid Steer Insurance | Contractor Equipment Insurance" />
+<meta property="og:description" content="Free skid steer insurance review. Coverage for skid steers and compact track loaders against theft, rollover, transport damage, vandalism, and jobsite losses." />
+<meta property="og:url" content="https://contractorequipmentinsurance.com/skid-steer-insurance.html" />
 <meta property="og:image" content="https://contractorequipmentinsurance.com/og.png" />
 <meta name="twitter:card" content="summary_large_image" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -78,7 +78,7 @@ img{max-width:100%;}
 .btn-primary{background:var(--accent);color:#fff;}
 .btn-primary:hover{background:var(--accent-dark);transform:translateY(-2px);}
 .hero{background:radial-gradient(1100px 480px at 78% -10%, rgba(0,0,0,.10), transparent 60%), linear-gradient(160deg,var(--navy) 0%, var(--navy-dark) 100%);color:#fff;padding:90px 0;}
-.hero-grid{display:grid;grid-template-columns:1fr .95fr;gap:56px;align-items:start;}
+.hero-grid{display:grid;grid-template-columns:1fr .95fr;gap:56px;align-items:center;}
 .eyebrow{display:inline-block;background:rgba(244,166,33,.16);color:var(--gold);padding:8px 16px;border-radius:999px;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;}
 .hero-title{font-size:clamp(38px,4.6vw,60px);line-height:1.08;font-weight:800;letter-spacing:-1.5px;margin:22px 0;max-width:720px;}
 .highlight{color:var(--gold);}
@@ -199,10 +199,10 @@ Contractor Equipment Insurance
 <section class="hero">
 <div class="container hero-grid">
 <div>
-<div class="eyebrow">Free Contractor Equipment Insurance Review</div>
-<h1 class="hero-title">Find Out If You're<br><span class="highlight">Overpaying On Your Equipment Insurance</span><br>— Before Your Renewal.</h1>
-<p>We review contractor equipment and inland marine coverage for premium savings, coverage gaps, and competitive markets — before your renewal locks you into another year at the wrong rate.</p>
-<p class="mini-proof">Excavators, skid steers, dozers, loaders, trailers, and tools — owned, financed, leased, or rented.</p>
+<div class="eyebrow">Skid Steer Insurance</div>
+<h1 class="hero-title">Free <span class="highlight">Skid Steer Insurance</span> Review.</h1>
+<p>Protect skid steers and compact track loaders against theft, rollover, transport damage, vandalism, and jobsite losses — and find out if you're overpaying before your renewal.</p>
+<p class="mini-proof">Inland marine and contractor equipment coverage for owned, financed, leased, and rented skid steers and track loaders.</p>
 <div class="hero-points">
 <div><span>✓</span> Compare your premium against specialty equipment markets</div>
 <div><span>✓</span> Spot gaps in theft, transport, and rented-equipment coverage</div>
@@ -215,7 +215,7 @@ Contractor Equipment Insurance
 
 <div class="form-card" id="form">
 <div class="form-head">
-<h3>Request Your Free Equipment Insurance Review</h3>
+<h3>Request Your Free Skid Steer Insurance Review</h3>
 <p>Submit the basics below. A contractor equipment specialist follows up — no obligation to switch.</p>
 </div>
 <div class="form-body">
@@ -226,7 +226,7 @@ Contractor Equipment Insurance
   <div class="form-stat"><strong>Fast</strong><span>Follow-Up</span></div>
 </div>
 <form action="https://procure-lead-engine.dan-fda.workers.dev/submit" method="POST">
-  <input type="hidden" name="lead_source" value="contractorequipmentinsurance.com" />
+  <input type="hidden" name="lead_source" value="contractorequipmentinsurance.com/skid-steer-insurance" />
   <input type="text" name="_gotcha" style="display:none !important" tabindex="-1" autocomplete="off" aria-hidden="true" />
   <input type="hidden" name="site" value="contractorequipmentinsurance.com" />
   <input type="hidden" name="vertical" value="Contractor Equipment Insurance" />
@@ -411,24 +411,24 @@ Contractor Equipment Insurance
 <div class="container">
 <div class="section-head">
 <div class="eyebrow">Common Questions</div>
-<h2>Contractor equipment insurance FAQ</h2>
+<h2>Skid Steer Insurance FAQ</h2>
 </div>
 <div class="faq">
 <div class="faq-item">
-<h3>What is inland marine / contractor equipment insurance?</h3>
-<p>It's coverage that protects contractor tools and equipment while in use, in storage, or being transported away from a fixed location — exposures standard property policies often exclude.</p>
+<h3>Does skid steer insurance cover theft?</h3>
+<p>Many contractor equipment policies can protect skid steers and compact track loaders against theft, depending on the coverage selected.</p>
 </div>
 <div class="faq-item">
-<h3>Does it cover theft and rented equipment?</h3>
-<p>Depending on how the policy is structured, coverage can include theft and vandalism, and many contractors add protection for rented or leased equipment. We review exactly what your policy does and doesn't cover.</p>
+<h3>Is skid steer insurance required?</h3>
+<p>Many lenders, leasing companies, and jobsite contracts require contractors to carry equipment coverage.</p>
 </div>
 <div class="faq-item">
-<h3>Is equipment covered while being transported?</h3>
-<p>Transit coverage can apply while equipment is being hauled between jobsites, but it's a common gap. We check whether your in-transport exposure is actually covered.</p>
+<h3>Can skid steers be insured while transported?</h3>
+<p>Coverage may apply during transport depending on the policy and options selected — we confirm whether yours does.</p>
 </div>
 <div class="faq-item">
-<h3>Is there any cost or obligation?</h3>
-<p>No. The review is free, there's no obligation to switch, and your information is never sold or shared.</p>
+<h3>What is inland marine insurance?</h3>
+<p>Inland marine insurance helps protect contractor equipment and tools while away from a fixed business location.</p>
 </div>
 </div>
 </div>
@@ -438,8 +438,8 @@ Contractor Equipment Insurance
 <div class="container">
 <div class="cta-box">
 <div class="eyebrow">No Cost • No Obligation • No Pressure</div>
-<h2>Request Your Free Contractor Equipment Insurance Review</h2>
-<p>See if you're overpaying before your renewal locks you into another year. One quick request and a specialist follows up with competitive options.</p>
+<h2>Request Your Free Skid Steer Insurance Review</h2>
+<p>See if you're overpaying before your renewal locks you into another year. One quick request and a specialist follows up.</p>
 <a href="#form" class="btn btn-primary">Get My Free Review →</a>
 </div>
 </div>
